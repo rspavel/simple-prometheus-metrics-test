@@ -9,6 +9,7 @@ if __name__ == '__main__':
     cnt = Counter('simple_count', 'A Mostly Pointless Metric')
     while True:
         time.sleep(random.random())
+        print('Writing Metric')
         cnt.inc(1.0)
 
 
